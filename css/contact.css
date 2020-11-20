@@ -1,0 +1,47 @@
+.header {
+    border-bottom: 1px solid var(--color-Grey-light-3);
+}
+.section__contact {
+    padding: 3rem;
+    background-color: var(--color-Grey-light-1);
+    text-align: center;
+}
+.small__heading {
+    text-align: left;
+    margin: 2rem 0;
+} 
+.contact {
+    text-align: left;
+    width: 100%;
+
+}
+.contact__list {
+    list-style: none;
+    margin: 2rem 0;
+}
+.tel  {
+    display: flex;
+    align-items: center;
+}
+.contact__list >a {  
+    display: flex;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: transform .4s ease;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+a:hover {
+    transform: translateY(-.2rem);
+}
+.telephone {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}

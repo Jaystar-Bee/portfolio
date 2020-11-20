@@ -1,0 +1,222 @@
+.html {
+    font-size: 62.5%;
+}
+@media only screen and (max-width:62.4375) {
+    html {
+        font-size: 30%;
+    }
+}
+
+.header {
+    border-bottom: 1px solid var(--color-Grey-light-4);
+}
+
+.section__skills {
+    padding: 2rem;
+    background-color: var(--color-Grey-light-2);
+    text-align: center;
+}
+.skill__heading {
+    margin: 1rem 0;
+}
+.small__heading {
+    font-size: 2.25rem;
+    text-align: left;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+    color: var(--color-Grey-dark-1);
+}
+.subtitle {
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 1.8rem;
+    color: var(--color-Grey-dark-2);
+
+}
+.skill__list-cover {
+ list-style: none;
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ margin: 1rem;
+}
+.skill__list {
+    background-color: var(--color-Grey-dark-2);
+    padding: 1.4rem;
+    color: var(--color-Grey-light-1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.skill__list:not(:last-of-type) {
+    margin-right: 3rem;
+}
+.card {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card__list {
+    background-color: #fff;
+    border-radius: 3px;
+    width: 30rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    transition: all .3s ease-in-out;
+    margin-right: 2rem;
+    align-self: stretch;
+}
+/* .card__list:not(:last-of-type) {
+    margin-right: 2rem;
+}
+.card__list:nth-of-type(3) {
+    margin-right: 0;
+} */
+.card__list:hover {
+    transform: translateY(-.4rem);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .4) ;
+}
+.card__image {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    -webkit-vertical-align: middle;
+    display: block;
+    object-fit: contain;
+    border-bottom: 1px solid var(--color-Grey-light-2);
+}
+.card__details {
+    padding: 1rem;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1;
+}
+.card__title {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-Grey-dark-2);
+}
+.preview a {
+    text-decoration: none ;
+    color: currentColor;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.preview a:hover {
+    color: var(--color-Grey-light-4);
+}
+.preview a:hover .btn-icon { 
+    margin-left: 1rem;
+    align-self: center;
+}
+.btn-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+    fill: currentColor;
+    margin-left: .5rem;
+    transition: all .2s;
+}
+.prog {
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+.prog__used {
+    list-style: none;
+    display: flex;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+.prog__list {
+    background-color: var(--color-Grey-light-3);
+    color: var(--color-Grey-dark-2);
+    padding: 1.4rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    transition: all .4s;
+}
+.prog__list:not(:last-of-type) {
+    margin-right: 2rem;
+}
+.prog__list:hover {
+    background-color: var(--color-Grey-light-4);
+    color: var(--color-Grey-light-1);
+}
+@media only screen and (max-width: 49.95em) {
+    .card {
+        justify-content: space-between; 
+        padding: 7rem;
+    }
+    .card__list {
+        margin:3rem;
+    }
+    .small__heading {
+        font-size: 2rem;
+    }
+    
+}
+@media only screen and (max-width: 44.9375em) {
+
+    .card {
+        justify-content: center;
+        padding: 5rem;
+    }
+    .card__list {
+        width: 100%;
+    }
+    .small__heading {
+        font-size: 1.8rem;
+    }
+    
+
+}
+@media only screen and (max-width: 31.25em) { 
+    .card {
+        padding: 0;
+    }
+    .small__heading {
+        font-size: 1.4rem;
+    }
+    .card__title {
+        font-size: 1.6rem;
+    }
+}
+
+.talk {
+    font-size: 1.6rem;
+    text-align: left;
+    padding: 1rem;
+    
+}
+.talk h4 {
+    color: var(--color-Grey-dark-1);
+    margin-bottom: 1rem;
+}
+.talk p {
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.talk p span{ 
+    color: var(--color-primary);
+    font-weight: 900;
+
+}
